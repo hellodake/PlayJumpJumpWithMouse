@@ -7,11 +7,11 @@ public class Constants {
     /**
      * adb所在位置
      */
-    public static final String ADB_PATH = "C:\\Users\\RoyZ\\Desktop\\platform-tools\\adb.exe";
+    public static final String ADB_PATH = "D:\\platform-tools-latest-windows\\platform-tools\\adb.exe";
     /**
      * 截屏文件所在位置
      */
-    public static final String SCREENSHOT_LOCATION = "C:\\Users\\RoyZ\\Desktop\\untitled\\s.png";
+    public static final String SCREENSHOT_LOCATION = "C:\\Users\\Lynn\\Desktop\\s.png";
 
     /**
      * 窗体显示的图片宽度
@@ -24,10 +24,11 @@ public class Constants {
     public static final int RESIZED_SCREEN_HEIGHT = 1200;
 
     /**
-     * 在675*1200分辨率下，跳跃蓄力时间与距离像素的比率<br>
+     * 在675*1200分辨率下，跳跃蓄力时间与距离像素的比率2.175f<br>
+     * 1920*1080===1.393f;<br>
      * 可根据实际情况自行调整
      */
-    public static final float RESIZED_DISTANCE_PRESS_TIME_RATIO = 2.175f;
+    public static final float RESIZED_DISTANCE_PRESS_TIME_RATIO = 1.393f;
 
     /**
      * 截图间隔
@@ -39,11 +40,11 @@ public class Constants {
      */
     public static final int MODE_MANUAL = 1;
     /**
-     * 半自动模式,只需要点secondPoint
-     */
-    public static final int MODE_SEMI_AUTO = 2;
-    /**
      * 自动模式
      */
-    public static final int MODE_AUTO = 3;
+    public static final int MODE_AUTO = 2;
+    /**
+     * 半自动模式,只需要点secondPoint
+     */
+    public static final int MODE_SEMI_AUTO = 3;
 }
