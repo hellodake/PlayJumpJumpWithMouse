@@ -22,7 +22,7 @@ adb pull /sdcard/screen.png # 下载截屏文件到本地
 5. 输入命令
 ```
 java -jar playJumpJumpWithMouse.jar -a <your adb path>
-windows eg: java -jar playJumpJumpWithMouse.jar -a "C:\Users\Home\Desktop\platform-tools\adb.exe"
+windows eg: java -jar playJumpJumpWithMouse-0.0.2.jar -a "D:\platform-tools-latest-windows\platform-tools\adb.exe" -m2
 ```
 > 如果想调整其他参数可以使用 java -jar playJumpJumpWithMouse.jar -h 查看更多选项
 
